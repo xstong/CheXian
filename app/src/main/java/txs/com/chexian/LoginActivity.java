@@ -42,8 +42,7 @@ import txs.com.chexian.Tools.StaticStrings;
 import txs.com.chexian.bean.User;
 
 
-import static txs.com.chexian.Tools.UserSerialize.serialize;
-
+//ceshi
 
 public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
