@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_et"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/login_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="60dp">
+
+        <txs.com.chexian.Tools.ClearEditText
+            android:id="@+id/telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/telephone"
+            android:drawableRight="@drawable/delete_selector"
+            android:hint="@string/telephone_hint">
+        </txs.com.chexian.Tools.ClearEditText>
+
+        <txs.com.chexian.Tools.ClearEditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/telephone"
+            android:drawableLeft="@drawable/password"
+            android:drawableRight="@drawable/delete_selector"
+            android:hint="@string/password_hint"
+            android:paddingTop="10dp">
+        </txs.com.chexian.Tools.ClearEditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="40dp"
+
+            android:background="@drawable/loginbutton"
+            android:text="@string/login_text"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/toGetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="无法登陆？"/>
+
+        <TextView
+            android:id="@+id/toRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="新用户注册"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

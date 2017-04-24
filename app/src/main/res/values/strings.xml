@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">车险宝</string>
+    <string name="telephone_hint">  请输入用户名/手机号</string>
+    <string name="password_hint">   请输入密码</string>
+    <string name="login_text">   登录</string>
+
+</resources>
