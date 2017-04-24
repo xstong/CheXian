@@ -6,4 +6,8 @@ package txs.com.chexian;
 
 public class HELLO {
     //CESHIJI
+   //woshiceshifenhi1
+    private static final String TAG = "HELLO";
+
+
 }
